@@ -3,16 +3,18 @@ Vantage101
 
 In this simple repo, I do the Vantage 101 tasks (see Vantage101.pdf).
 These include:
-- [x] Make a simple cookiecutter template for a simple model;
-- [ ] Deploying the model to a FastAPI endpoint
+- [x] Make a simple cookiecutter template for a simple model
 - [x] Setting up a Git SHH key
+- [ ] Deploying the model to a FastAPI endpoint
 - [ ] Use pre-commit and Makefile
-- [ ] Use Github Actions
 - [ ] Use Modern Pandas
 - [ ] Use Flake8 and Black formatters
 - [ ] Set up some unit testing
-- [ ] Use Docker
+- [x] Use Docker
 - [ ] Deploy to GCP?
+- [ ] Use Github Actions
+
+Run using `sudo docker build -t vantage101 . && sudo docker run --runtime=nvidia --rm -it vantage101`
 
 Project Organization
 ------------

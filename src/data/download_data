@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Downloading time series data..."
+curl --output-dir ./data/raw -O https://raw.githubusercontent.com/hfawaz/cd-diagram/master/FordA/FordA_TRAIN.tsv
+curl --output-dir ./data/raw -O https://raw.githubusercontent.com/hfawaz/cd-diagram/master/FordA/FordA_TEST.tsv
